@@ -4,7 +4,7 @@ import Meals from "./components/Meals/Meals";
 
 function App() {
   useEffect(() => {
-    document.title = "new title";
+    document.title = "reactmeals";
   }, []);
   return (
     <Fragment>
