@@ -1,8 +1,11 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 
 function App() {
+  useEffect(() => {
+    document.title = "new title";
+  }, []);
   return (
     <Fragment>
       <Header />
